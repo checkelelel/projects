@@ -8,6 +8,22 @@ header{
 .header_text{
     width: 850px;
 }
+.circle{
+    height: 600px;
+    width: 600px;
+    max-height: 80vw;
+    max-width: 80vw;
+    border-radius: 50%;
+    border: 20px solid;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.circle img{
+    height: 100%;
+}
+
 nav{
    margin-bottom: 120px; 
 }
